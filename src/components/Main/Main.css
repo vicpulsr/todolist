@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    border-bottom: 1px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.btn-add, .new-task {
+    border: none;
+    background: white;
+    text-align: left;
+    padding: 20px 40px;
+    font-size: 20px;
+    color: #b3b3be;
+    border-bottom: 1px solid rgba(152, 149, 149, 0.274);
+    outline: none;
+}
+
+.btn-add:active {
+    background: #f96b75;
+    color: white;
+}
+
+.btn-addNewTask {
+    background-color: #5b5fea;
+    margin-right: -21px;
+    width: 92px;
+}
+
+.new-task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tasks {
+    height: 500px;
+    overflow: auto;
+}
+
+.task {
+    padding: 8px 20px;
+    color: #858899;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.taskDone {
+    text-decoration: line-through;
+}
+
+.footer {
+    color: #9093ab;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.main span > span {
+    color: #f96b75;
+}

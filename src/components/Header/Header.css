@@ -1,0 +1,38 @@
+.header {
+    background-color: #fcfcfe;
+    border-top: 1px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid rgba(152, 149, 149, 0.274);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.day {
+    color: #5b5fea;
+    font-size: 32px;
+}
+
+.month, .quantity-tasks {
+    color: #b3b3be;
+}
+
+.btn-clear {
+    color: white;
+    background-color:#f96b75;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    height: 100%;
+}
+
+.first-line, .second-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
